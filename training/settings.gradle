@@ -1,0 +1,5 @@
+rootProject.name = 'training'
+include 'ediary'
+include 'ediary:domain'
+findProject(':ediary:domain')?.name = 'domain'
+
